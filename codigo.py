@@ -21,3 +21,17 @@ def factorial(n):
         # Escribe aqui el return de la operacion contraria a la operacion anterior
         resul = n * factorial(n-1)
     return resul
+
+"""
+Ejercicio 3: Contar Vocales en una Cadena
+Descripción: En este ejercicio se debe implementar una función que cuente el número de vocales (mayúsculas y minúsculas) en una cadena de texto dada.
+"""
+
+def contar_vocales(cadena):
+    vocales = 'aeiouAEIOU'
+    contador = 0
+    for letra in cadena:
+        if letra in vocales:
+            # Escribe aqui el contador de vocales
+            contador = contador + 1
+    return contador

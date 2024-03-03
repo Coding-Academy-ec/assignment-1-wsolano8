@@ -16,7 +16,7 @@ def test_factorial():
     assert factorial(0) == 1
     assert factorial(1) == 1
 
-"""
+
 # 003 --- 
     
 def contar_vocales(cadena):
@@ -27,7 +27,7 @@ def contar_vocales(cadena):
             contador += 1
     return contador
 
-
+"""
 # 004 ---
 
 from codigo import es_palindromo
