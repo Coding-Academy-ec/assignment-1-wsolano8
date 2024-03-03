@@ -5,6 +5,8 @@ Descripción: Este ejercicio consiste en crear una función que reciba dos núme
 
 def sumar(a, b):
     # Escribe aqui el return de la suma de 2 numeros
+    suma = a + b
+    return suma
 
 """
 Ejercicio 2: Factorial de un Número
@@ -14,38 +16,13 @@ Descripción: En este ejercicio se requiere crear una función que calcule el fa
 def factorial(n):
     if n == 0:
         # Escribe aqui el return de la operacion anterior
+        resul = "No es Factorial"
     else:
         # Escribe aqui el return de la operacion contraria a la operacion anterior
-
-"""
-Ejercicio 3: Contar Vocales en una Cadena
-Descripción: En este ejercicio se debe implementar una función que cuente el número de vocales (mayúsculas y minúsculas) en una cadena de texto dada.
-"""
-    
-def contar_vocales(cadena):
-    vocales = 'aeiouAEIOU'
-    contador = 0
-    for letra in cadena:
-        if letra in vocales:
-            # Escribe aqui el contador de vocales
-    return contador
-
-"""
-Ejercicio 4: Verificar Palíndromo
-Descripción: En este ejercicio se debe implementar una función que verifique si una cadena de texto dada es un palíndromo, es decir, si se lee igual de izquierda a derecha que de derecha a izquierda.
-"""
-
-def es_palindromo(cadena):
-    # Escribe aqui el return de la cadena al reves con una funcion de python
-    return cadena == cadena[::-1]
-
-"""
-Ejercicio 5: Suma de Elementos de una Lista
-Descripción: En este ejercicio se debe crear una función que calcule la suma de todos los elementos de una lista dada.
-"""
-
-def suma_lista(lista):
-    # Escribe aqui el return de la suma de todos los elementos de la lista
-    for elemento in lista:
-        suma += elemento
-    return suma
+        factorial = 1
+        i = 1
+        while (i <= n):
+            factorial = factorial * i
+            i = i + 1
+    resul = n
+    return resul
