@@ -55,6 +55,7 @@ Descripción: En este ejercicio se debe crear una función que calcule la suma d
 
 def suma_lista(lista):
     # Escribe aqui el return de la suma de todos los elementos de la lista
+    suma = 0
     for elemento in lista:
         suma += elemento
     return suma
