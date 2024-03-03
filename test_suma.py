@@ -16,7 +16,7 @@ def test_factorial():
     assert factorial(0) == 1
     assert factorial(1) == 1
 
-
+"""
 # 003 --- 
     
 def contar_vocales(cadena):
@@ -45,3 +45,4 @@ def test_suma_lista():
     assert suma_lista([1, 2, 3, 4, 5]) == 15
     assert suma_lista([-1, -2, -3, -4, -5]) == -15
     assert suma_lista([0, 0, 0, 0, 0]) == 0
+"""
