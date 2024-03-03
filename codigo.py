@@ -47,3 +47,15 @@ def es_palindromo(cadena):
         return True
     
     return False
+
+"""
+Ejercicio 5: Suma de Elementos de una Lista
+Descripción: En este ejercicio se debe crear una función que calcule la suma de todos los elementos de una lista dada.
+"""
+
+def suma_lista(lista):
+    # Escribe aqui el return de la suma de todos los elementos de la lista
+    suma = 0
+    for elemento in lista:
+        suma += elemento
+    return suma
