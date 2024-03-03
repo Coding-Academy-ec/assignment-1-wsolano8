@@ -36,7 +36,7 @@ def test_es_palindromo():
     assert es_palindromo("radar") == True
     assert es_palindromo("oso") == True
     assert es_palindromo("Python") == False
-"""
+
 # 005 ---
     
 from codigo import suma_lista
@@ -45,4 +45,3 @@ def test_suma_lista():
     assert suma_lista([1, 2, 3, 4, 5]) == 15
     assert suma_lista([-1, -2, -3, -4, -5]) == -15
     assert suma_lista([0, 0, 0, 0, 0]) == 0
-"""
