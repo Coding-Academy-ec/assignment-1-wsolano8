@@ -27,7 +27,7 @@ def contar_vocales(cadena):
             contador += 1
     return contador
 
-"""
+
 # 004 ---
 
 from codigo import es_palindromo
@@ -36,7 +36,7 @@ def test_es_palindromo():
     assert es_palindromo("radar") == True
     assert es_palindromo("oso") == True
     assert es_palindromo("Python") == False
-
+"""
 # 005 ---
     
 from codigo import suma_lista

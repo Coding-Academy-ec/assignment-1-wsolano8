@@ -35,3 +35,15 @@ def contar_vocales(cadena):
             # Escribe aqui el contador de vocales
             contador = contador + 1
     return contador
+
+"""
+Ejercicio 4: Verificar Palíndromo
+Descripción: En este ejercicio se debe implementar una función que verifique si una cadena de texto dada es un palíndromo, es decir, si se lee igual de izquierda a derecha que de derecha a izquierda.
+"""
+
+def es_palindromo(cadena):
+    # Escribe aqui el return de la cadena al reves con una funcion de python
+    if cadena == "".join(reversed(cadena)):
+        return True
+    
+    return False
