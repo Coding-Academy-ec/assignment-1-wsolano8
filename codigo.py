@@ -16,13 +16,8 @@ Descripción: En este ejercicio se requiere crear una función que calcule el fa
 def factorial(n):
     if n == 0:
         # Escribe aqui el return de la operacion anterior
-        resul = "No es Factorial"
+        resul = 1
     else:
         # Escribe aqui el return de la operacion contraria a la operacion anterior
-        factorial = 1
-        i = 1
-        while (i <= n):
-            factorial = factorial * i
-            i = i + 1
-    resul = n
+        resul = n * factorial(n-1)
     return resul
